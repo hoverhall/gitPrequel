@@ -1,0 +1,46 @@
+#footer .content{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 15px 15px;
+	background: #88A091;
+	overflow: hidden;
+	align-content: center;
+}
+
+#footer{
+	background: #000;
+}
+
+#footer a{
+	text-decoration: none;
+	color: #000;
+}
+
+#footer a:hover{
+	color: #fff;
+}
+
+.logo{
+	font-size: 2px;
+}
+
+.content > *{
+	/*float:left;*/
+}
+
+#footer nav li{
+	position: inherit;
+	list-style-type: none;
+	padding-left: 150px;
+	padding-top: 5px;
+}
+
+#footer .menu{
+	display: grid;
+	float: right;
+}
+
+#footer img{
+	opacity: 0.5;
+}

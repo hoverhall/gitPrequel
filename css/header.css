@@ -1,0 +1,49 @@
+#header{
+	background: red;
+}
+
+#header a{
+	display: block;
+	text-decoration: none;
+}
+
+.logo{
+	font-size: 2px;
+}
+
+.content > *{
+	float:left;
+}
+
+#header nav li{
+	margin: 0; padding: 0;
+	display: inline-grid;
+	padding-top: 45px;
+}
+
+#header > .menu{
+	
+}
+
+#p{
+	color: #fff;
+}
+
+#header nav li a{
+	text-decoration: none;
+    font-family: sans-serif;
+    color: #5757a0;
+    padding: 15px 40px;
+    background-color: lavender;
+    border-bottom: 5px solid #5757a0;
+}
+
+#header nav li:hover a{
+	transition-duration: 0.2s;
+	text-decoration: none;
+    font-family: sans-serif;
+    color: lavender;
+    padding: 15px 40px;
+    background-color: #5757a0;
+    border-bottom: 5px solid lavender;
+}

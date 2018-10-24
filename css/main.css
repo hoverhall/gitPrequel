@@ -1,0 +1,13 @@
+#main img{
+	width: 25%;
+	height: 25%;
+}
+
+.leftimg{
+	float: left;
+	margin: 7px 7px 7px 0;
+}
+
+.stream{
+	padding-top: 20px;
+}

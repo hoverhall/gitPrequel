@@ -1,0 +1,37 @@
+*{
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	background: #49067A;
+}
+
+.content{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 15px 15px;
+	background: #cfcfcf;
+	overflow: hidden;
+	align-content: center;
+}
+
+main .content{
+	background: #C580FA;
+}
+
+#container{
+	min-height: 50%;
+}
+
+#main, #main *{
+	overflow: auto;
+	margin-bottom: 0px;
+}
+
+#footer{
+	position: relative;
+	clear: both;
+}

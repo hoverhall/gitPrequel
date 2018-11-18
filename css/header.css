@@ -21,8 +21,8 @@
 	padding-top: 45px;
 }
 
-#header > .menu{
-	
+#header .menu{
+	float: right;
 }
 
 #p{
